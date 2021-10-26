@@ -33,9 +33,8 @@ public class binarySearch {
     public int[] ArrayMaker(int arr[])
     {
         Scanner scan  = new Scanner(System.in);
-        arr[0]  = scan.nextInt();
-        int curr = 0; 
-        for( int i = 1; i < arr.length ; i++)
+        System.out.println("Enter the array values:");
+        for( int i = 0; i < arr.length ; i++)
         {
             arr[i] = scan.nextInt();
         }
@@ -46,7 +45,7 @@ public class binarySearch {
         System.out.println("The array is:");
         for( int i = 0; i < arr.length ; i++)
         {
-            System.out.println(arr[i]);
+            System.out.print(arr[i]+ "  ");
         }
     }
     public int[] arraySorter(int arr[])
