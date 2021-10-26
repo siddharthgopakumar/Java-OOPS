@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Armstrong
+comment1.params=n
+comment1.target=int\ numberOfDigits(int)
+comment2.params=count\ r
+comment2.target=int\ poweringNos(int,\ int)
+comment3.params=n
+comment3.target=boolean\ isArmstrong(int)
+comment4.params=
+comment4.target=void\ testArmstrong()
+numComments=5

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=linearSearch
+comment1.params=arr\ searchValue
+comment1.target=int\ linearSearch(int[],\ int)
+comment2.params=arr
+comment2.target=int[]\ arrayMaker(int[])
+comment3.params=
+comment3.target=void\ tester()
+numComments=4

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=DiceRolling
+comment0.text=\r\n\ Write\ a\ description\ of\ RandomDice\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=rolls
+comment1.target=void\ simulate(int)
+numComments=2
