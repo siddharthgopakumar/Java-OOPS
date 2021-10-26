@@ -12,19 +12,21 @@ public class twoDArray {
 public void twoDArray()
 {
     Scanner scan = new Scanner(System.in);
-    int[][] arr = new int[3][2];
+    System.out.println("Enter the row and column numbers");
+    int row =scan.nextInt(), column = scan.nextInt();
+    int[][] arr = new int[row][column];
     System.out.println("Enter the array values");
-    for( int i=0 ; i < 3 ; i++ )
+    for( int i=0 ; i < row ; i++ )
     {
-        for( int j=0 ; j<2 ; j++ )
+        for( int j=0 ; j < column ; j++ )
         {
             arr[i][j] = scan.nextInt();
         }
     }
     System.out.println("The entered array is:");
-     for( int i=0 ; i < 3 ; i++ )
+     for( int i=0 ; i < row ; i++ )
     {
-        for( int j=0 ; j<2 ; j++ )
+        for( int j=0 ; j < column ; j++ )
         {
             System.out.print(arr[i][j]+ "\t");
         }
