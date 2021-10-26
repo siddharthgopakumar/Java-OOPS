@@ -1,3 +1,5 @@
+package BeginnerAlgorithms;
+
 
 /**
  * Write a description of test here.
