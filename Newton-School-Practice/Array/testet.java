@@ -11,6 +11,10 @@ public class testet {
     public void testmethod()
     {
         int[] arr1 = {1,2,3,4};
-        i
+        for(int i = 0; i< 4; i++)
+        {
+            System.out.print(arr1[i]);
+        }
+        
         
 }
