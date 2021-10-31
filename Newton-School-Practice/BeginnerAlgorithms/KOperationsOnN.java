@@ -14,9 +14,9 @@ public class KOperationsOnN {
         for(int i=0; i< K; i++)
         {
             long r = 0L;
-            int digits = (int)(Math.ceil(Math.log10(N)));
+            int digits = (int)(Math.log10(N));
             
-            r = (long)(N / (Math.pow(10, digits-1)));
+            r = (long)(N / (Math.pow(10, digits)));
            if(r==1)
            break;
             N *= r;
