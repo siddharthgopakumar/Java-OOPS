@@ -2,14 +2,14 @@ package BeginnerAlgorithms;
 
 
 /**
- * Write a description of Test here.
+ * A dynamic program.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Siddharth
+ * @version 31/OCT/2021
  */
 
     
-    import java.util.*;
+import java.util.*;
 class DynamicProgramming
 {
    public int sumofDigits(int n)
@@ -33,15 +33,9 @@ public int[] reduceZero(int N)
  
 
     for (int i = 0; i <= N; i++)
-    {
- 
-            dp[i] = Math.min(dp[i],
-                             dp[i-sumofDigits(i)] + 1);
-                             
-        
-    }
- 
-    
+    { 
+            dp[i] = Math.min(dp[i], dp[i-sumofDigits(i)] + 1);
+    }    
     return dp;
 }
 
