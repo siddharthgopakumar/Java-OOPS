@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=DynamicProgramming
+comment1.params=n
+comment1.target=int\ sumofDigits(int)
+comment2.params=N
+comment2.target=int[]\ reduceZero(int)
+comment3.params=
+comment3.target=void\ main1()
+numComments=4
