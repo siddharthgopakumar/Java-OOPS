@@ -66,11 +66,11 @@ public class CaesarCipher {
     }
     public void testEncrypt()
     {
-        FileResource fr = new FileResource();
+        //FileResource fr = new FileResource();
         Scanner scan = new Scanner(System.in);
         System.out.println("Select the file containing the message:");
-        //String unencryptedMessage = scan.nextLine();
-        String unencryptedMessage = fr.asString();
+        String unencryptedMessage = scan.nextLine();
+        //String unencryptedMessage = fr.asString();
         System.out.println("Enter the key 1:");
         int key1 = scan.nextInt();
         System.out.println("Enter the key 2:");

@@ -8,10 +8,12 @@
 public class ObjectOrientedCaesarCipher {
     private String alphabet;
     private String shiftedAlphabet;
+    private int mainKey;
     public ObjectOrientedCaesarCipher(int key)
     {
         alphabet = "abcdefghijklmnopqrstuvwxyz";
         shiftedAlphabet = alphabet.substring(key) + alphabet.substring(0,key);
+        mainKey = key;
     }
     public String encrypt(String input)
     {
@@ -34,5 +36,10 @@ public class ObjectOrientedCaesarCipher {
             }
         }
         return encrypted.toString();
+    }
+    public String decrypt(String input)
+    {
+        ObjectOrientedCaesarCipher ooCC = new ObjectOrientedCaesarCipher(26 - mainKey);
+        return ooCC.encrypt(input);
     }
 }
