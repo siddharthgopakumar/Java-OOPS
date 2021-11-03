@@ -11,6 +11,8 @@ public class WordLengths {
     {
         for( String word : resource.words())
         {
+            if(word.length() == 1 && !Character.isLetter(word.charAt(0)))
+                 {continue;}
             if( Character.isLetter(word.charAt(0)))
             {
                 if(Character.isLetter(word.charAt(word.length()-1)))

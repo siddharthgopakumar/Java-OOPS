@@ -6,12 +6,17 @@
  * @version (a version number or a date)
  */
 public class tes {
-    public void test()
+    private String name;
+    private int number;
+    public tes(String n, int nr)
     {
-        String a = "$for$";
-        //String b = "Singh";
-        a = a.substring(0,a.length()-1);
-        System.out.println(a);
-        
+        name = n;
+        number = nr;
     }
+    
+    public String toString()
+    {
+        return "Ram";
+    }
+    
 }

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=recursionSumofProducts
+comment1.params=a\ b
+comment1.target=int\ sumProd(int,\ int)
+comment2.params=
+comment2.target=void\ tester()
+numComments=3
