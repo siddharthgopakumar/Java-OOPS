@@ -10,11 +10,18 @@ package Array;
 public class testet {
     public void testmethod()
     {
-        int[] arr1 = {1,2,3,4};
-        for(int i = 0; i< 4; i++)
+        if(true)
+        {System.out.println("%%%%%%%%%%%%%%%%");
+        return;}
+        else
         {
-            System.out.print(arr1[i]);
-        }
+        System.out.println("%%%%%%%%%%%%%%%%");
+    }
         
-        
+}
+public void rectestmethod()
+{
+    testmethod();
+}
+
 }
