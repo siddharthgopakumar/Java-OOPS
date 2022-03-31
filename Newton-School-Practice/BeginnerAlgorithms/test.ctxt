@@ -1,8 +1,5 @@
 #BlueJ class context
 comment0.target=test
-comment0.text=\r\n\ Write\ a\ description\ of\ test\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-comment1.params=M\ K\ N
-comment1.target=int\ memory(int,\ int,\ int)
-comment2.params=
-comment2.target=void\ tester()
-numComments=3
+comment1.params=
+comment1.target=void\ tester()
+numComments=2

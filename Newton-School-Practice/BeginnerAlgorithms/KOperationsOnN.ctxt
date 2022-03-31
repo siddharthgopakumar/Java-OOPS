@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=KOperationsOnN
+comment0.text=\r\n\ Multiple\ N\ with\ the\ left\ most\ digit\ K\ times.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ KOperations()
+numComments=2

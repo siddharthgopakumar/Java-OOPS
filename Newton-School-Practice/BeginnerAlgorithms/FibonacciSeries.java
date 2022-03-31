@@ -1,3 +1,5 @@
+package BeginnerAlgorithms;
+
 
 /**
  * Write a description of FibonacciSeries here.
@@ -9,7 +11,7 @@ import java.util.Scanner;
 public class FibonacciSeries {
     public void printFibonacciSeries()
     {
-       int prev = 0, curr = 1, i;
+       long prev = 0L, curr = 1L, i;
        Scanner scan = new Scanner( System.in );
        int n = scan.nextInt();
        System.out.print(0 + ", " + 1);

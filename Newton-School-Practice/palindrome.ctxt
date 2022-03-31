@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=palindrome
+comment1.params=
+comment1.target=void\ isPalindrom()
+comment2.params=ch
+comment2.target=boolean\ isVowel(char)
+comment3.params=
+comment3.target=void\ countnoVowels()
+numComments=4
